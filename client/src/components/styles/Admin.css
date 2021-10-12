@@ -1,0 +1,27 @@
+.admin_container{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form_admin{
+    padding: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+}
+.password{
+    position: relative;
+}
+.show_password{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    font-size: 17px;
+    cursor: pointer;
+}
+.form_admin>*:not(:last-child){
+    margin-bottom: 37px;
+}

@@ -1,0 +1,38 @@
+.gallery_img{
+    width: 100%;
+}
+.gallery_img_50{
+    width: 50%;
+}
+.m_z_gallery{
+    margin: 0;
+}
+.m_z_gallery *{
+    margin: 0;
+    padding: 0;
+}
+.project{
+    padding: 30px 40px;
+    color: #FFFF;
+    height: 100%;
+}
+.project_name{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.project_description{
+    font-size: 14px;
+    align-items: flex-end;
+}
+.project_description>div:not(:last-child){
+    width: 60%;
+}
+.project_description button{
+    margin-left: 15px;
+    font-size: 11px;
+    color: #FFFF;
+    padding: 3px 15px;
+    background-color: transparent;
+    border-radius: 60px;
+    border: 1px solid #FFFF;
+}

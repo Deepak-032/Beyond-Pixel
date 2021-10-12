@@ -1,0 +1,37 @@
+.about_us_container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 129px;
+}
+.about_content{
+    max-width: 445px;
+}
+.about_para{
+    margin-top: 47px;
+    font-size: 14px;
+}
+.owner_name{
+    font-size: 22px;
+}
+.about_owner{
+    margin-top: 26px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 767px) {
+    .about_content{
+        max-width: 280px;
+    }
+    .about_us_container{
+        margin-bottom: 65px;
+        justify-content: center;
+        text-align: center;
+    }
+    .about_principals_container>div:first-child{
+        margin-bottom: 47px;
+    }
+    .about_us_container>div:first-child{
+        margin-bottom: 65px;
+    }
+}

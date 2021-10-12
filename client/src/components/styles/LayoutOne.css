@@ -1,0 +1,34 @@
+.layout_one_img_position{
+    position: absolute;
+    right: 0;
+    width: 56.333333%;
+}
+.layout_one_heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+.layout_one_heading+div{
+    font-size: 14px;
+}
+.layout_one_container{
+    color: #FFFF;
+    padding: 55px 0px 48px 0;
+    max-width: 344px;
+}
+.layout_one_content{
+    padding: 25px 0 32px 0;
+}
+@media (max-width: 767px) {
+    .layout_one_img_position{
+        position: static;
+        width: auto;
+    }
+    .layout_one_container{
+        max-width: 280px;
+    }
+    .layout_one_row{
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap-reverse;
+    }
+}

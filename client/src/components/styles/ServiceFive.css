@@ -1,0 +1,21 @@
+.block_s5{
+    margin-top: 0;
+    max-width: 275px;
+    max-height: 100%;
+    width: 20vw;
+    height: 25vw;
+    right: 60%;
+    z-index: -1;
+    top: -7%;
+    background-color: #EF4D4D;
+    background-image: linear-gradient(to bottom left, #EF4D4D, #FD8814);
+}
+.service_img_masks_s5{
+    max-width: 200px;
+    width: 14.5vw;
+    height: auto;
+    object-fit: contain;
+    top: 64%;
+    min-width: 120px;
+    right: 0;
+}

@@ -1,0 +1,43 @@
+.main_footer{
+    background-color: #313131;
+    padding: 43px 0;
+    margin-top: 60px;
+}
+.footer{
+    padding-bottom: 22px;
+}
+.footer>div:not(:last-child){
+    padding-right: 24px;
+}
+.footer_headings{
+    color: #FD8814;
+    padding-bottom: 18px;
+}
+.footer_headings~div{
+    color: #FFFF;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.footer_headings~div>a{
+    color: #FFFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+.fit_content{
+    max-width: fit-content;
+}
+.social_icon{
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+    margin-right: 13px;
+}
+@media (max-width: 767px) {
+    .main_footer{
+        padding: 43px 40px;
+        margin-top: 30px;
+    }
+    .footer{
+        padding-bottom: 30px;
+    }
+}

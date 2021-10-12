@@ -1,0 +1,126 @@
+.navbar_container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #FFFF;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 12px 0;
+    max-width: 1024px;
+    margin: auto;
+    z-index: 2;
+}
+.navbar_logo{
+    object-fit: contain;
+    height: 40px;
+}
+.navbar_right{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navbar_right>li{
+    list-style: none;
+}
+.navbar_right>li>a,
+.services_dropdown a,
+.menu_services{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #434343;
+}
+.navbar_right>li:not(:last-child){
+    margin-right: 30px;
+}
+.hamburgerMenu{
+    position: absolute;
+    right: 0;
+    font-size: 32px;
+}
+.services_dropdown{
+    box-shadow: 0 8px 20px 0px rgb(0 0 0 / 10%);
+    border-radius: 7px;
+    position: absolute;
+    top: 134%;
+    left: 0;
+    padding: 10px 0;
+    background: #FFFF;
+}
+.services_dropdown>li{
+    padding: 10px 0px;
+}
+.services_dropdown>li>a{
+    padding: 0px 20px;
+}
+@media (max-width: 767px) {
+
+    .navbar_right{
+        align-items: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        z-index: 1;
+        background-color: #FFFF;
+        transition: all 0.5s ease;
+    }
+    .navbar_right.active{
+        left: 0;
+        background-color: #FFFF;
+        padding-top: 30px;
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding-bottom: 15px;
+    }
+    .navbar_container{
+        position: static;
+        background-color: #FFFF !important;
+        top: 0;
+    }
+    .navbar_logo{
+        height: 50px;
+    }
+    .nav_mobile{
+        margin: 0 12px;
+        justify-content: center;
+    }
+    .navbar_right>li>a{
+        text-decoration: none;
+        font-size: 26px;
+        color: #434343;
+        display: block;
+        transition: 0.3s;
+    }
+    .navbar_right>li{
+        font-size: 26px;
+        color: #434343;
+        padding: 10px;
+    }
+    .menu_services{
+        font-size: 26px;
+        color: #434343;
+    }
+    .services_dropdown>li>a{
+        font-size: 26px;
+        color: #434343;
+        padding: 10px 10px 10px 38px;
+    }
+    .navbar_right a:hover,
+    .navbar_right a:focus {
+        color: #f1f1f1;
+    }
+    .services_dropdown{
+        position: static;
+        box-shadow: none;
+    }
+}

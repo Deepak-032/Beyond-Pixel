@@ -1,0 +1,9 @@
+.empty{
+    height: 67px;
+}
+@media (max-width: 767px) {
+    .empty{
+        height: 0;
+    }
+    
+}

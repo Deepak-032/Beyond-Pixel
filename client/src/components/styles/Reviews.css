@@ -1,0 +1,31 @@
+.review{
+    margin-top: 200px;
+}
+.review_line{
+    border-bottom: 4px solid #FD8814;
+    position: absolute;
+    width: 250px;
+    top: 52%;
+    right: 100%;
+    z-index: 1;
+}
+.client_name{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+.client_name > div{
+    font-size: 11px;
+    color: #FD8814;
+}
+.carousel{
+    padding: 0;
+}
+.carousel-inner{
+    padding: 40px 90px;
+    font-size: 14px;
+    box-shadow: 0 8px 50px #ebebeb;
+}
+.navigate{
+    color: #0C1F35;
+}
