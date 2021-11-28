@@ -25,16 +25,6 @@ function App() {
   const [auth, setAuth] = useState(false)
   const [projectName, setProjectName] = useState('')
 
-  useEffect(() => {
-    async function getCities(db) {
-      const citiesCol = collection(db, 'photography');
-      const citySnapshot = await getDocs(citiesCol);
-      const cityList = citySnapshot.docs.map(doc => doc.data());
-      console.log(cityList);
-    }
-    getCities(db)
-  }, [])
-
   return (
     <Router>
       <ScrollToTop />
